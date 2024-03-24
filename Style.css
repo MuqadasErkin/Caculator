@@ -2,18 +2,20 @@ button{
     padding: 20px;
     height: 100px;
     width: 100px;
+    margin: 2px;
+    border: none;
     border-radius: 50px;
     font-size: 40px;
 }
 .operation:active{
     background-color: rgba(255, 166, 0, 0.831);
 }
+.function{
+    background-color: rgb(203, 199, 199);
+}
 .C3{
     width: 303px;
     margin-left: 2px;
-}
-.function{
-    background-color: rgb(203, 199, 199);
 }
 .digit{
     background-color: dimgray;
@@ -26,19 +28,16 @@ button{
     background-color: orange;
     color: white;
 }
-button.clear{
-    width: max-content;
-}
-.input{
-    background-color: black;
-    color: white;
-    
-}
+
 .display{
-    padding: 20px;
     height: 120px;
+    border: none;
     display: grid;
     grid-area: display;
+    background-color: black;
+    color: white;
+    text-align: end;
+    font-size: 30px;
 }
 .clear{
     display: grid;
@@ -109,7 +108,7 @@ button.clear{
 .body{
     background-color: black;
     height: 700px;
-    width: 410px;
+    width: 416px;
     margin: auto;
     margin-top: 100px;
 
