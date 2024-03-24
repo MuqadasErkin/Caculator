@@ -1,0 +1,52 @@
+.one{
+    display: grid;
+    grid-area: one;
+}
+.two{
+    display: grid;
+    grid-area: two;
+}
+.three{
+    display: grid;
+    grid-area: three;
+}
+.four{
+    display: grid;
+    grid-area: four;
+}
+.five{
+    display: grid;
+    grid-area: five;
+}
+.six{
+    display: grid;
+    grid-area: six;
+}
+.seven{
+    display: grid;
+    grid-area: seven;
+}
+.eight{
+    display: grid;
+    grid-area: eight;
+}
+.nine{
+    display: grid;
+    grid-area: nine;
+}
+
+
+
+
+
+.body{
+    grid-template-areas: 
+    "display display display display"
+    "clear clear clear division"
+    "seven eight nine multiplication"
+    "four five six plus"
+    "one two three minus"
+    "zero zero zero equal"
+    ;
+}
+
