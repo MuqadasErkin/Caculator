@@ -13,6 +13,9 @@ button{
 .function{
     background-color: rgb(203, 199, 199);
 }
+.function:active{
+    background-color: rgba(203, 199, 199, 0.84);
+}
 .C3{
     width: 303px;
     margin-left: 2px;
